@@ -1,6 +1,6 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Formulario from "./components/Formulario.jsx";
 function App() {
 
   return (
@@ -10,7 +10,7 @@ function App() {
       <hr />
     </div>
     <section>
-      
+      <Formulario></Formulario>
     </section>
     </>
   )
